@@ -1,6 +1,5 @@
 import { BrowserRouter as Router, Route, Link, Switch, Redirect } from "react-router-dom";
 import React from "react";
-import myTables from '../views/myTables'
 import routerConfig from './config'
 
 function RouteWithSubRoutes(route) {

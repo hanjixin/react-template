@@ -1,31 +1,10 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import 'antd/dist/antd.css'
-import router from './router'
+import React from "react";
+import "./App.css";
+import "antd/dist/antd.css";
+import router from "./router";
+console.log(process.env, 'process.env)') // 打印环境变量
 function App() {
-  return (
-    <div className="App">
-      {
-      /* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */
-      router()
-      }
-      
-    </div>
-  );
+  return <div className="App">{router()}</div>;
 }
 
 export default App;
