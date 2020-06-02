@@ -11,6 +11,10 @@ const router = {
       component: components.TreeTable
     },
     {
+      path: "/tree",
+      component: components.Tree
+    },
+    {
       path: "/sandwiches",
       component: components.Sandwiches
     },
