@@ -7,6 +7,10 @@ const router = {
       component: components.myTables
     },
     {
+      path: "/treeTable",
+      component: components.TreeTable
+    },
+    {
       path: "/sandwiches",
       component: components.Sandwiches
     },
@@ -23,7 +27,7 @@ const router = {
           component: components.Cart
         }
       ]
-    }, 
+    },
     {
       path: '/404',
       component: components.NotFound

@@ -19,6 +19,9 @@ function RouteConfigExample() {
     <Router >
       <div>
         <ul>
+        <li>
+            <Link to="/treeTable">treeTable</Link>
+          </li>
           <li>
             <Link to="/tacos">Tacos</Link>
           </li>

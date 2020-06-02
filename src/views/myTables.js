@@ -184,4 +184,4 @@ const mapDispatchToProps = (dispatch, ownProps) => {
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(Form.create({ name: "chuangjian" })(MyTables));
+)(MyTables);

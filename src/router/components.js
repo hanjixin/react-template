@@ -2,7 +2,7 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import myTables from '../views/myTables'
-
+import TreeTable from '../views/treeTable'
 function RouteWithSubRoutes(route) {
   return (
     <Route
@@ -55,7 +55,8 @@ const components  = {
   NotFound,
   Cart,
   Sandwiches,
-  myTables
+  myTables,
+  TreeTable
 }
 
 export default components
